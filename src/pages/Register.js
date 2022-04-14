@@ -78,6 +78,7 @@ function Register() {
       <Typography sx={{ margin: '1rem' }} variant="h4">
         Sign Up
       </Typography>
+      
       <Formik
       initialValues={initialValues}
       onSubmit={handleSubmit}
